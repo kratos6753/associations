@@ -1,0 +1,17 @@
+Database associations
+
+Author 	-> hasMany -> Recipes
+		-> hasMany -> Reviews
+		-> hasMany -> Comments
+
+Comment -> belongsTo -> Author
+		-> belongsTo -> Reviews
+		# no relation with recipe
+
+Review -> hasMany -> Comments
+	   -> belongsTo -> Author
+	   -> belongsTo -> Recipe
+
+Recipe -> belongsTo -> Author
+	   -> hasMany -> Reviews
+		# no relation with comments

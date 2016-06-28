@@ -1,0 +1,1 @@
+<p>User Registered successfully</p>
