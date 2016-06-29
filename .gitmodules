@@ -1,0 +1,3 @@
+[submodule "app/Plugin/Ratings"]
+	path = app/Plugin/Ratings
+	url = git@github.com:CakeDC/ratings.git
